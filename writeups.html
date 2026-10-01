@@ -1,103 +1,35 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Writeups — As High As Honor</title>
 <link rel="icon" href="assets/logo.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body data-page="writeups">
-
 <div id="loader">
-  <img class="loader-logo" src="assets/logo.jpg" alt="">
-  <div class="loader-text">LOADING WRITEUPS</div>
-  <div class="loader-sub">// challenge breakdowns</div>
-  <div class="loader-bar-track"><div class="loader-bar-fill" id="loader-fill"></div></div>
-  <div class="loader-pct" id="loader-pct">0%</div>
+<img class="loader-logo" src="assets/logo.jpg" alt="">
+<div class="loader-text">LOADING WRITEUPS</div><div class="loader-sub">// challenge breakdowns</div>
+<div class="loader-bar-track"><div class="loader-bar-fill" id="loader-fill"></div></div>
+<div class="loader-pct" id="loader-pct">0%</div>
 </div>
-
 <div id="page-content">
-
-<header>
-  <nav class="nav">
-    <a class="brand" href="index.html">
-      <img src="assets/logo.jpg" alt="As High As Honor logo">
-      AS HIGH<br>AS HONOR
-    </a>
-    <div class="navlinks">
-      <a href="index.html">Home</a>
-      <a href="members.html">Members</a>
-      <a href="writeups.html" class="active">Writeups</a>
-      <a href="events.html">Events</a>
-      <a href="archive.html">Archive</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <div class="nav-right">
-      <a class="pixel-btn ghost" href="https://ctftime.org/team/447040" target="_blank" rel="noopener">CTFtime</a>
-      <a class="pixel-btn" href="https://discord.gg/tjXGtZprT" target="_blank" rel="noopener">Discord</a>
-    </div>
-  </nav>
-</header>
-
+<header><nav class="nav">
+<a class="brand" href="index.html"><img src="assets/logo.jpg" alt="As High As Honor logo">AS HIGH<br>AS HONOR</a>
+<div class="navlinks"><a href="index.html">Home</a><a href="members.html">Members</a><a href="writeups.html" class=active>Writeups</a><a href="events.html">Events</a><a href="archive.html">Archive</a><a href="contact.html">Contact</a></div>
+<div class="nav-right"><a class="pixel-btn ghost" href="https://ctftime.org/team/447040" target="_blank" rel="noopener">CTFtime</a><a class="pixel-btn" href="https://discord.gg/tjXGtZprT" target="_blank" rel="noopener">Discord</a></div>
+</nav></header>
 <main>
-  <section style="padding-bottom:0;">
-    <div class="wrap">
-      <div class="eyebrow">AsHighAsHonor // Research</div>
-      <h1 style="font-size:clamp(1.4rem, 3.5vw, 2.1rem); color:var(--parchment);">Writeups</h1>
-      <p class="muted" style="max-width:56ch; font-size:1.15rem; margin-top:14px;">
-        Challenge breakdowns, exploitation paths, and techniques we've written up after competitions.
-      </p>
-    </div>
-  </section>
-
-  <section style="padding-top:36px;">
-    <div class="wrap">
-      <div class="row-list">
-
-        <div class="row-item pixel-card">
-          <div style="flex:1; min-width:240px;">
-            <h3>Placeholder Writeup Title</h3>
-            <p>A short summary of the vulnerability, the category, and the technique used will go here once you publish your first writeup.</p>
-          </div>
-          <div style="text-align:right;">
-            <div class="pill">WEB</div>
-            <div class="meta" style="margin-top:8px;">Coming soon</div>
-          </div>
-        </div>
-
-        <div class="row-item pixel-card">
-          <div style="flex:1; min-width:240px;">
-            <h3>Placeholder Writeup Title</h3>
-            <p>A short summary of the vulnerability, the category, and the technique used will go here once you publish your first writeup.</p>
-          </div>
-          <div style="text-align:right;">
-            <div class="pill">PWN</div>
-            <div class="meta" style="margin-top:8px;">Coming soon</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="placeholder-note" style="margin-top:26px;">
-        No writeups published yet — this section is ready to fill in. Send me the CTF name, category, and a short summary for each one and I'll drop them in here.
-      </div>
-    </div>
-  </section>
+<section class="top"><div class="wrap"><div class="eyebrow">AsHighAsHonor // Research</div>
+<h1 class="page-title">Writeups</h1><p class="muted lead">Challenge breakdowns, exploitation paths, and techniques we've written up after competitions.</p></div></section>
+<section style="padding-top:36px;"><div class="wrap"><div class="row-list"><div class="row-item pixel-card"><div style="flex:1; min-width:240px;"><h3>Planetary Probe Directory</h3><p>Blind boolean-based PostgreSQL injection — binary-search extraction, schema discovery, and a honeypot table trap. Written in Arabic.</p><div class="meta" style="margin-top:8px;">by Mazen Seoudy</div></div>
+<div class="right"><div class="pill">SUNSHINECTF</div> <div class="pill">WEB</div><a class="pixel-btn ghost" href="assets/writeups/Planetary-Probe-Directory.pdf" target="_blank" rel="noopener">Read PDF</a></div></div><div class="row-item pixel-card"><div style="flex:1; min-width:240px;"><h3>AI Discrimination</h3><p>Challenge write-up from DefCamp CTF.</p><div class="meta" style="margin-top:8px;">by Marwan Amr (SecMaro)</div></div>
+<div class="right"><div class="pill">DEFCAMP CTF</div><a class="pixel-btn ghost" href="https://github.com/secmaro/DefCamp-CTF-aiscrimination-Write-up" target="_blank" rel="noopener">View on GitHub</a></div></div><div class="row-item pixel-card"><div style="flex:1; min-width:240px;"><h3>CookieCorp</h3><p>Challenge write-up from SunshineCTF 2026.</p><div class="meta" style="margin-top:8px;">by Marwan Amr (SecMaro)</div></div>
+<div class="right"><div class="pill">SUNSHINECTF</div><a class="pixel-btn ghost" href="https://github.com/secmaro/CookieCorp-SunshineCTF-2026" target="_blank" rel="noopener">View on GitHub</a></div></div><div class="row-item pixel-card"><div style="flex:1; min-width:240px;"><h3>Groundhog Day</h3><p>Challenge write-up from SunshineCTF 2026.</p><div class="meta" style="margin-top:8px;">by Marwan Amr (SecMaro)</div></div>
+<div class="right"><div class="pill">SUNSHINECTF</div><a class="pixel-btn ghost" href="https://github.com/secmaro/Groundhog-Day-SunshineCTF-2026" target="_blank" rel="noopener">View on GitHub</a></div></div></div></div></section>
 </main>
-
-<footer>
-  <div class="wrap footer-row">
-    <span>© 2026 As High As Honor. AsHighAsHonor.</span>
-    <span class="footer-motto">"AS HIGH AS HONOR"</span>
-  </div>
-</footer>
-
+<footer><div class="wrap footer-row"><span>© 2026 As High As Honor. AsHighAsHonor.</span><span class="footer-motto">"AS HIGH AS HONOR"</span></div></footer>
 </div>
-
 <script src="assets/loader.js"></script>
-</body>
-</html>
+</body></html>
